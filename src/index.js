@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <DateProvider>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter basename="/command-project-react">
+          <BrowserRouter basename="/slim-mom">
             <App />
           </BrowserRouter>
         </PersistGate>
